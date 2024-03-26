@@ -1,12 +1,8 @@
-const resutrants = ['Archibald\'s', 'HWA', 'R&R Barbeque'];
+const restaurants = ['Archibald\'s', 'HWA', 'R&R Barbeque'];
 
-const random = Math.floor(Math.random() * resutrants.length);
-console.log(resutrants[random]);
-
-
-let resutrantGenerator = document.querySelector('#generator');
-resutrantGenerator.addEventListener('click', () => {
-    
-}) 
-
+let restaurantGenerator = document.querySelector('#generator');
+restaurantGenerator.addEventListener('click', () => {
+    const randomRestaurant = Math.floor(Math.random() * restaurants.length);
+    alert(restaurants[randomRestaurant])
+})
 

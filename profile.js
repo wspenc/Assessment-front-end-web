@@ -8,7 +8,9 @@ favPlace.addEventListener('click', () => {
     alert('Japan')
 }) 
 
-let favRitual = document.querySelector('#ritual');
-favRitual.addEventListener('click', () => {
+let favHoliday = document.querySelector('#holiday');
+favHoliday.addEventListener('click', () => {
     alert('Christmas Eve')
 }) 
+
+
